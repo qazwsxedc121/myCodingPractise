@@ -1,0 +1,73 @@
+{
+    "type": "Window",
+    "id": "window",
+    "layout": "grid",
+    "menu": {
+        "type": "Menu",
+        "id": "menu1",
+        "class": "old",
+        "items": [
+            {
+                "type": "Menu",
+                "id": "menu1",
+                "text": "File",
+                "items": [
+                    {
+                        "type": "MenuItem",
+                        "id": "menu1_1_1",
+                        "text": "Open"
+                    },
+                    {
+                        "type": "Menu",
+                        "id": "menu1_1_2",
+                        "text": "Open As...",
+                        "items": [
+                            {
+                                "type": "MenuItem",
+                                "id": "menu1_1_2_1",
+                                "text": "Pictrue"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MenuItem",
+                        "id": "menu1_1_3",
+                        "text": "Exit"
+                    }
+                ]
+            },
+            {
+                "type": "Menu",
+                "id": "menu1_2",
+                "text": "Help"
+            }
+        ]
+    },
+    "items": [
+        {
+            "type": "Label",
+            "id": "label1",
+            "text": "Hey",
+            "position": "0 0"
+        },
+        {
+            "type": "Button",
+            "id": "button1",
+            "text": "OK",
+            "position": "0 1 1 2",
+            "sticky": "WE"
+        },
+        {
+            "type": "Entry",
+            "id": "entry1",
+            "position": "1 0 1 2",
+            "width": "23"
+        },
+        {
+            "type": "Button",
+            "id": "button2",
+            "text": "Cancel",
+            "position": "1 2"
+        }
+    ]
+}
